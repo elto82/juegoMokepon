@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mokepon</title>
+  <script src="./js/mokepon.js"></script>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <section id="seleccionar-mascota">
+    <h1 class="title">MOKEPON! 🔥 💧 ⏳</h1>
+
+    <h2>Elige tu mascota:</h2>
+
+    <div class="tarjeta">
+      <label class="tarjeta-mokepon" for="hipodoge">
+        <p>Hipodoge</p> 
+        <img src="./assets/mokepons_mokepon_hipodoge_attack.webp" alt="imagen de hipodoge">
+      </label>
+    <input type="radio" name="mascota" id="hipodoge">
+
+    <label class="tarjeta-mokepon" for="capipepo">
+      <p>Capipepo</p> 
+      <img src="./assets/mokepons_mokepon_capipepo_attack.webp" alt="imagen de capipepo">
+    </label>
+    <input type="radio" name="mascota" id="capipepo">
+
+    <label class="tarjeta-mokepon" for="ratigueya">
+      <p>Ratigueya</p> 
+      <img src="./assets/mokepons_mokepon_ratigueya_attack.webp" alt="imagen de ratigueya">
+    </label>
+    <input type="radio" name="mascota" id="ratigueya">
+
+    </div>    
+
+    <button id="boton-mascota">Seleccionar</button>
+  </section>
+
+  <section id="seleccionar-ataque">
+    <h2>Elige tu ataque:</h2>
+    <p>Tu mascota <span id="mascota-jugador"></span> tiene <span id="vida-jugador">3</span> vidas</p>
+    <p>la mascota <span id="mascota-enemigo"></span> del enemigo tiene <span id="vida-enemigo">3</span> vidas</p>
+    <div>
+      <button id="boton-fuego">Fuego 🔥</button>
+      <button id="boton-agua">Agua 💧</button>
+      <button id="boton-tierra">Tierra ⏳</button>
+    </div>
+  </section>
+
+  <section id="mensajes">
+    <!--   <p>Tu mascota atacó con Fuego, las mascota del enemigo atacó con Tierra , ganaste 🎉</p>
+ -->
+  </section>
+
+  <section id="reiniciar">
+    <button id="boton-reiniciar">Reiniciar</button>
+
+  </section>
+
+
+</body>
+
+</html>

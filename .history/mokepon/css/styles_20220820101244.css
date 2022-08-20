@@ -1,0 +1,154 @@
+/* 
+.color1 {color: #120907;}
+.color2 {color: #2c2641;}
+.color3 {color: #676090;}
+.color4 {color: #ad9fec;}
+.color5 {color: #f3dced;} */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+  
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  background-color: #9a0071;
+}
+
+h2{
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+}
+
+.title{
+  color: #120907;
+  margin: 4rem auto 4rem auto;
+  font-size: 3.6rem;
+}
+
+#seleccionar-mascota{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3dced;
+  height: 99%;;
+}
+
+.tarjeta, .botones-ataque{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tarjeta-mokepon{
+  width: 15rem;
+  height: 10rem;
+  background-color: #ad9feca9;
+  padding: 1rem;
+  border: 2px solid #120907;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.6rem;
+  font-weight:bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeta-mokepon img{
+  width: 7rem;
+}
+
+button{
+  background-color: #120907;
+  color: #f3dced;
+  margin: 1rem;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 2rem;
+}
+
+#seleccionar-ataque{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boton-ataque{
+  background-color: #120907;
+  border-radius: 2rem;
+  border-color: transparent;
+  width: 8rem;
+  font-family: Poppins;
+  border: 2px solid #ad9fec;
+
+}
+
+#mensajes{
+  width: 28rem;
+  background: #120907;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  color: white;
+  text-align: center;
+  border: 2px solid #ad9fec;
+  margin-bottom: 3rem;
+}
+
+#boton-reiniciar{
+  border: 2px solid #ad9fec;
+  color: #f3dced;
+}
+
+.ataques{
+  display: grid;
+  grid-template-columns: 10rem 10rem;
+  text-align: center;
+}
+
+.ataques-jugador, .ataques-enemigo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  display: none;
+ }
+
+ input:checked + label{
+  background-color: #6E85B7;
+ }
+
+ #ver-mapa{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+ #ver-mapa button {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+ }
+
+@media (max-width: 380px) {
+  .tarjeta, .botones-ataque{
+    flex-direction: column;
+  }
+}

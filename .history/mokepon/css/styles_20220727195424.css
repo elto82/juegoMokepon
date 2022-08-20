@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+.title{
+  color: #141830;
+  margin-bottom: 4rem;
+}
+
+#seleccionar-mascota{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

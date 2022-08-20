@@ -1,0 +1,36 @@
+/* 
+.color1 {color: #120907;}
+.color2 {color: #2c2641;}
+.color3 {color: #676090;}
+.color4 {color: #ad9fec;}
+.color5 {color: #f3dced;} */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+  background-color: #f3dced;
+}
+
+.title{
+  color: #120907;
+  margin: 4rem auto 4rem auto;
+  font-size: 2.4rem;
+}
+
+#seleccionar-mascota{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeta-mokepon{
+  background-color: #ad9fec;
+  padding: 1rem;
+  border: solid 1px #120907;
+}

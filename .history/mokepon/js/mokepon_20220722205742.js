@@ -1,0 +1,1 @@
+let botonMascotaJugador = document.getElementById('')

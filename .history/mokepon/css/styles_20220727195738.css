@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+.title{
+  color: #141830;
+  margin: 4rem auto 4rem auto;
+  font-size: 2.4rem;
+}
+
+#seleccionar-mascota{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
